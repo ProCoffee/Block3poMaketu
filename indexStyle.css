@@ -408,13 +408,13 @@ align-items: center;}
         width: 490px;
         height: 160px;
     }
-    .first-block__text1120px{display: inline-block;}
+    .first-block__text1120px{display: inline;}
     .first-block__image {
         width: 531px;
         height: 383px;
         display: flex;
         margin-left: 36px;
-        padding-top: -38px;
+        margin-top: -15px;
         padding-bottom: 38px;
     }
 }
