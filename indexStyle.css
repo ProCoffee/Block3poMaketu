@@ -184,8 +184,8 @@ align-items: center;}
     margin-left: 16px;
     font-size: 16px;
 }
-.first-block__text768px {display: none;}
-.first-block__text1120px{display: none;}
+.first-block__text2 {display: none;}
+.first-block__3{display: none;}
 
 .first-block__image{margin-top: 16px;}
 .title__only1120_check{display: none;}
@@ -241,13 +241,13 @@ align-items: center;}
 
     width: 312px;
     height: 160px;}
-    .first-block__text768px{display: block;
+    .first-block__text2{display: block;
         font-family: "TTLakes-Regular";
         font-style: normal;
         font-weight: normal;
     font-size: 14px;
     }
-    .first-block__text1120px{display: none;}
+    .first-block__3{display: none;}
     .first-block__container_properties{margin-top: 32px;}
     .first-block__icon{margin-left: 33px;}
     .first-block__read-more{margin-top: 10px;}
@@ -406,13 +406,14 @@ align-items: center;}
         flex-direction: column;
         width: 514px;
         min-height: 198px;
+
     }
 
     .first-block__text {
         width: 490px;
         height: 160px;
     }
-    .first-block__text1120px{display: inline;}
+    .first-block__text3{display: inline;}
     .first-block__image {
         width: 531px;
         height: 383px;
