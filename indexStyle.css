@@ -54,17 +54,54 @@ body{padding: 0;
         height: 40px;
         margin-left: 16px;
     }
+    .header__menu_button{
+        width: 40px;
+    height: 40px;
+    display: inline;
+    background-image: url(burger.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #FFF;
+    }
+}
+.header__devider_planshet{display: none;}
+.header__devider1 {width: 2px;
+    height: 32px;
+    display: inline;
+    background-image: url(divider.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #FFF;
+}
 
-    .header_devider {
+.header__logo{width: 98px;
+    height: 52px;
+    display: inline;
+    background-image: url(Group.svg);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #FFF;}
+.header__button_profile{display: none;}
+
+    .header__button_repair {
+        width: 40px;
         height: 40px;
+        display: inline;
+        background-image: url(repair.svg);
+        background-repeat: no-repeat;
+        border: none;
+        background-color: #FFF;
     }
+    .header__button_checkstatus{width: 40px;
+        height: 40px;
+        display: inline;
+        background-image: url(checkstatus.svg);
+        background-repeat: no-repeat;
+        border: none;
+        background-color: #FFF;}
 
-    .header__repair {
-        border-radius: 1px;
-        padding-left: 20px;
-    }
 
-    .header__call {
+    .header__call{
         display: none;
     }
 
@@ -148,8 +185,6 @@ body{padding: 0;
         display: flex;
         width: 100%;
         overflow-x: scroll;
-
-
     }
 
     .nav__container_size {
@@ -183,18 +218,12 @@ body{padding: 0;
         border-radius: 6px;
         padding-top: 8px;
         padding-bottom: 8px;
+        padding-left: 22px;
+        padding-right: 22px;
+        
+        margin-right: 0;
 
 
-    }
-
-    .nav__button2 {margin-left: 32px;
-        order: -1;
-
-    }
-
-    .nav__button3 {
-        order: 0;
-        margin-left: 20px;
     }
 
     .nav__button1 {
@@ -202,12 +231,28 @@ body{padding: 0;
         margin-left: 20px;
     }
 
+
+
+    .nav__button2 {margin-left: 32px;
+        order: -1;
+
+    }
+    .nav__button2:focus{margin-left: 8px;}
+
+    .nav__button3 {margin-left: 20px;
+        order: 0;
+
+    }
+
+
+
     .nav__button4 {
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     .nav__button5 {
-        margin-left: 20px;
+
     }
 
     .nav__button6 {
@@ -309,41 +354,44 @@ body{padding: 0;
     .title__check {
         display: none;
     }
-
     .title__repair {
         display: none;
     }
-
-
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
         body {
             padding: 0;
             margin: 0;
             width: 100%;
-
-
             display: flex;
             flex-direction: column;
         }
-
         .header {
             display: flex;
             width: 100%;
         }
+        .header__devider_planshet{
+            width: 2px;
+            height: 32px;
+            display: inline;
+            background-image: url(divider.svg);
+            background-repeat: no-repeat;
+            border: none;
+            background-color: #FFF;}
 
         .header__call {
-            display: inline-block;
+            display: inline;
             margin-left: 231px;
         }
-
         .header__chat {
-            display: block;
+            display: inline;
         }
-
-        .header__profile {
-            display: block;
-        }
-
+        .header__chat_button{width: 40px;
+            height: 40px;
+            display: inline;
+            background-image: url(chat.png);
+            background-repeat: no-repeat;
+            border: none;
+            background-color: #FFF;}
         .main {
             display: flex;
             width: 100%;
@@ -376,15 +424,25 @@ body{padding: 0;
             margin-right: 20px;
             margin-left: 20px;
         }
-
-        .header__button-planshet {
-            background-color: #FFF;
+        .header__profile{display: inline;}
+        .header__button_profile{width: 40px;
+            height: 40px;
+            display: inline;
+            background-image: url(profile.png);
+            background-repeat: no-repeat;
             border: none;
-            padding: 0;
-            outline: none;
-        }
+            background-color: #FFF;}
+        .header_call{display: inline;}
+        .header__call_button{
+            width: 40px;
+            height: 40px;
+            display: inline;
+            background-image: url(call.png);
+            background-repeat: no-repeat;
+            border: none;
+            background-color: #FFF;}
 
-        .header_devider {
+        .header__devider {
             margin-left: 10px;
         }
 
@@ -409,7 +467,7 @@ body{padding: 0;
             display: flex;
             width: 100%;
             flex-wrap: nowrap;
-            justify-content: space-between;
+
 
         }
 
@@ -444,13 +502,7 @@ body{padding: 0;
 
         .title__container{max-height: 40px;}
         .title__left{display: flex; flex-shrink: 0;}
-        .title__check {
-            display: none;
-        }
-
-        .title__repair {
-            display: none;
-        }
+       .title__right{display: none;}
 
         .first-block {
             display: flex;
@@ -466,8 +518,6 @@ body{padding: 0;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-
-
         }
 
         .first-block__planshet {
@@ -485,9 +535,7 @@ body{padding: 0;
             display: none;
         }
 
-        .first-block__container_properties {
 
-        }
 
         .first-block__read-more {
             display: flex;
@@ -536,70 +584,78 @@ body{padding: 0;
             font-size: 28px;
         }
 
-        .nav {
-
-        }
-
+        .nav {}
         .nav__container {
             display: flex;
             flex-wrap: wrap;
             height: 130px;
-
         }
-
         .nav__container_size {
-            width: 100%;
+            width: 100%;}
 
-        }
-
-        .nav__button {
+        .nav__button {padding-right: 0;
             display: flex;
             flex-shrink: 0;
+            outline: none;
         }
-
-        .nav__button3 {
-            display: none;
-        }
-
-        .nav__button1 {
-            order: 0;
-            width: 233px;
-            height: 40px;
-        }
-
-        .nav__button5 {
-            width: 162px;
-            height: 40px;
-            padding-left: 0;
-        }
-
-        .nav__button2 {
+        .nav__button:focus {
+            background-color: #FFF;
             display: flex;
+            flex-shrink: 0;
+            border: 2px solid #B8FFEC;
+            border-radius: 6px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 22px;
+            padding-right: 22px;
+            margin-left: 32px;
+        }
+        .nav__button1 {display: flex;
+            order: 0;
+            margin-right: 34px;
+            margin-left: 0;
+            height: 40px;}
+        .nav__button1:focus{
+            margin-left: -18px;
+            padding-left: 19px;
+            margin-right: 34px;}
+        .nav__button2 {
             order: -1;
             height: 40px;
-            padding-left: 0px;
-            margin-left: 32px;
-
-        }
-
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 55px;
+            margin-right: 40px;}
+        .nav__button2:focus{
+            margin-right: 15px;}
+        .nav__button3 {
+            display: none;}
         .nav__button4 {
+            margin-right: 27px;
+            margin-left: 0;
+            height: 40px;}
+        .nav__button4:focus{margin-left: -6px;
+        margin-right: 5px;}
+        .nav__button5 {display: flex;
+            margin-right: 21px;
+            margin-left: 0;
+            height: 40px;}
+        .nav__button5:focus{
+            margin-left: -4px;}
+
+        .nav__button6 {display: flex;
+            flex-shrink: 0;
 
             height: 40px;
             padding-left: 0px;
-
+            margin-left: 0;
+            margin-right: 21px;
         }
-
-        .nav__button6 {
-            width: 216px;
-            height: 40px;
-            padding-left: 0px;
-            margin-left: 20px;
-            margin-right: 37px;
-        }
+        .nav__button6:focus{margin-left: 0px;}
 
         .nav__button7 {
             display: flex;
-            margin-left: 34px;
+            margin-left: 55px;
             height: 40px;
 
 
@@ -735,7 +791,7 @@ body{padding: 0;
         .first-block__read-more {
             display: flex;
             align-items: center;
-            margin-top: 35px;
+            margin-top: 17px;
         }
 
 
@@ -755,7 +811,7 @@ body{padding: 0;
             margin-bottom: 26px;
         }
     }
-}
+
 
 
 
