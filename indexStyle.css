@@ -595,55 +595,46 @@ body{padding: 0;
         }
 
 
-        .nav__button {padding-right: 0;
-            display: flex;
-            flex-shrink: 0;
-            outline: none;
-        }
+
         .nav__button:focus {
             background-color: #FFF;
             display: flex;
             flex-shrink: 0;
             border: 2px solid #B8FFEC;
-            border-radius: 6px;
             padding-top: 8px;
             padding-bottom: 8px;
-            padding-left: 0px;
-            padding-right: 19px;
-            margin-left: 32px;
+            padding-left: 21px;
+            padding-right: 22px;
+            margin-right: 19px;
+            margin-left: 0;
+
         }
         .nav__button1 {display: flex;
-            order: 0;
-            margin-right: 34px;
-            margin-left: 0;
-            height: 40px;}
-        .nav__button1:focus{
-            margin-left: -18px;
-            padding-left: 19px;
-            margin-right: 34px;}
-        .nav__button2 {
             order: -1;
+            margin-right: 0;
+            margin-left: 22px;
+            height: 40px;}
+
+        .nav__button2 {
+            order: 0;
             height: 40px;
+            margin-left: 0;
+            margin-right: 34px;
             padding-left: 0;
             padding-right: 0;
-            margin-left: 55px;
-            margin-right: 40px;}
-        .nav__button2:focus{
-            margin-right: 15px;}
+           }
+
         .nav__button3 {
             display: none;}
         .nav__button4 {
             margin-right: 27px;
             margin-left: 0;
             height: 40px;}
-        .nav__button4:focus{margin-left: -6px;
-        margin-right: 5px;}
+
         .nav__button5 {display: flex;
             margin-right: 21px;
             margin-left: 0;
             height: 40px;}
-        .nav__button5:focus{
-            margin-left: -4px;}
 
         .nav__button6 {display: flex;
             flex-shrink: 0;
@@ -653,21 +644,18 @@ body{padding: 0;
             margin-left: 0;
             margin-right: 21px;
         }
-        .nav__button6:focus{margin-left: 0px;}
+
 
         .nav__button7 {
             display: flex;
-            margin-left: 55px;
+            margin-left: 21px;
             height: 40px;
 
 
         }
 
-        .nav__button {
 
-        }
-
-
+        .title{}
         .title__container {
             display: flex;
             justify-content: space-between;
@@ -801,8 +789,7 @@ body{padding: 0;
             margin-right: 29px;
             margin-left: 36px;
             display: flex;
-
-            margin-top: -90px;
+            margin-top: -33px;
         }
 
         .first-block__picture {
