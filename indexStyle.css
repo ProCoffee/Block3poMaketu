@@ -575,7 +575,7 @@ body{padding: 0;
         }
 
         .main__container {
-            width: 100%;
+            width: 1120px;
 
         }
 
@@ -588,10 +588,12 @@ body{padding: 0;
         .nav__container {
             display: flex;
             flex-wrap: wrap;
-            height: 130px;
+            width: 1063px;
+            margin-left: 32px;
+            margin-right: 25px;
+            overflow-x: hidden;
         }
-        .nav__container_size {
-            width: 100%;}
+
 
         .nav__button {padding-right: 0;
             display: flex;
@@ -606,8 +608,8 @@ body{padding: 0;
             border-radius: 6px;
             padding-top: 8px;
             padding-bottom: 8px;
-            padding-left: 22px;
-            padding-right: 22px;
+            padding-left: 0px;
+            padding-right: 19px;
             margin-left: 32px;
         }
         .nav__button1 {display: flex;
@@ -804,9 +806,9 @@ body{padding: 0;
         }
 
         .first-block__picture {
-            display: flex;
+
             border-radius: 6px;
-            width: 100%;
+            width: 531px;
             margin-top: 24px;
             margin-bottom: 26px;
         }
