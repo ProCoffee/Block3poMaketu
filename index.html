@@ -11,32 +11,18 @@
 <body>
 <header class="header">
     <div class="header__container">
-        <div class="header__burger"><button class="header__menu_button"></button>> </div>
-        <div class="header__devider1">
+        <div class="header__part--left">
+            <button class="header__menu_button"></button>
+            <a href="/" class="header__logo"></a>
+            <div class="header__devider1"></div>
         </div>
-
-        <div class="header__logo">
-
-        </div>
-
-        <div class="header__call">
-            <button class="header__call_button"></button>
-        </div>
-        <div class="header__chat">
-            <button class="header__chat_button"></button>
-        </div>
-        <div class="header__profile">
-            <button class="header__button_profile"></button>
-        </div>
-        <div class="header__devider_planshet">
-
-        </div>
-        <div class="header__repair">
-           <button class="header__button_repair"></button>
-        </div>
-
-        <div class="header__checkstatus">
-            <button class="header__button_checkstatus"></button>
+        <div class="header__part--right">
+            <button class="header__call--button"></button>
+            <button class="header__chat--button"></button>
+            <button class="header__profile--button"></button>
+            <div class="header__devider--planshet"></div>
+            <button class="header__button--repair"></button>
+            <button class="header__button--checkstatus"></button>
         </div>
     </div>
 </header>
@@ -45,13 +31,13 @@
         <div class="title">
             <div class="title__container">
                 <div class="title__left">
-                    <div class="title__highlight"><img src="highlight_title.svg" alt=""></div>
+                    <div class="title__highlight"><img src="highlight_title.svg" alt="стрелки"></div>
                     <div class="title__text">Услуги и сервисы</div>
                 </div>
 
                <div class="title__right">
-                <div class="title__repair"><span class="title__repair_text">Оставить заявку</span> <button class="title__repair-button"></button></div>
-                   <div class="title__check"><span class="title__check_text">Статус ремонта</span> <button class="title__check-button"></button></div>
+                   <div class="title__repair"><label>Оставить заявку <button class="title__repair-button"></button></label></div>
+                   <div class="title__check"><label>Статус ремонта <button class="title__check-button"></button></label></div>
                </div>
 
 
@@ -61,18 +47,17 @@
 
         <nav class="nav">
             <div class="nav__container nav__container_size">
-                <button class="nav__button nav__button1" autofocus="autofocus">Ремонтируемые бренды</button>
-                <button class="nav__button nav__button2" >Ремонтируемые устройства</button>
-                <button class="nav__button nav__button3">Дополнительные услуги</button>
-                <button class="nav__button nav__button4">Цены на услуги</button>
-                <button class="nav__button nav__button5">Специальные цены</button>
-                <button class="nav__button nav__button6">Адреса сервисных центров</button>
-                <div class="break"></div>
-                <button class="nav__button nav__button7">Отзывы</button>
+                <button class="nav__button">Ремонтируемые бренды</button>
+                <button class="nav__button">Ремонтируемые устройства</button>
+                <button class="nav__button">Дополнительные услуги</button>
+                <button class="nav__button">Цены на услуги</button>
+                <button class="nav__button">Специальные цены</button>
+                <button class="nav__button">Адреса сервисных центров</button>
+                <button class="nav__button">Отзывы</button>
             </div>
         </nav>
 
-        <section class="first-block">
+        <div class="first-block">
             <div class="first-block__container first-block__container_properties">
                 <div class="first-block__not-image">
                     <div class="first-block__text">
@@ -92,21 +77,17 @@
                     </div>
 
                     <div class="first-block__read-more">
-                        <div class="first-block__icon">
-                            <button class="first-block__iconRM">
-                                <img src="read-more-icon.png" alt="arrows">
-                            </button>
-                        </div>
-                        <div class="first-block__read-more-text">
+
+                        <button class="first-block__button--readmore">
                         Читать далее
-                        </div>
+                        </button>
                     </div>
                 </div>
 
                 <div class="first-block__image"> <img src="picture.jpg"
                                                       class="first-block__picture" alt="Картинка"> </div>
             </div>
-        </section>
+        </div>
     </div>
 </main>
 
