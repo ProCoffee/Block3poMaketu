@@ -45,9 +45,11 @@ body{padding: 0;
     .brand__container{display: flex; flex-direction: row;
         background-color: #F8F8F8;
     flex-wrap: nowrap;
-    min-width: 0;}
+   }
     .swiper-wrapper{padding: 16px;}
-    .brand__item{display: flex; width: 240px; justify-content: space-between;
+    .brand__item{display: flex; width: 240px;
+        height: 72px;
+        justify-content: space-between;
         background-color: #FFFFFF;
         overflow: hidden;
         align-items: center; border: 1px solid #EAEAEA; border-radius: 6px;
@@ -72,20 +74,28 @@ body{padding: 0;
     .header__container{display: flex;}
 
     .brand{}
-    .brand_container{margin: 0 auto;
-        background-color: #F8F8F8;}
+    .brand__container{
+        display: flex;
+        margin: 0 auto;
+        background-color: #F8F8F8;
+
+        }
+
     .brand__wrapper{display: flex;
+
         overflow-x: auto;
         flex-wrap: wrap;}
-    .brand__slide{ display: flex;
+
+    .brand__item{ display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-basis: 21%;
         margin-bottom: 16px;
         margin-right: 32px;
         border: 1px solid #EAEAEA;
         background-color: #FFFFFF;}
     .brand__button{background-color: #FFFFFF;}
+   .swiper-pagination{display: none;}
+
 
 
 
@@ -99,16 +109,19 @@ body{padding: 0;
 
     .brand{}
     .brand__container{display: flex;
+
         padding: 16px;
         background-color:#F8F8F8; }
     .brand__wrapper{display: flex;
-        min-width: 0;
+
+
 
         flex-wrap: wrap;
     }
     .brand__item{
         display: flex;
         min-width: 240px;
+        height: 72px;
         justify-content: space-between;
         align-items: center;
         border: 1px solid #EAEAEA;
@@ -117,6 +130,7 @@ body{padding: 0;
         background-color: #FFFFFF;
         width: 40px; height: 40px; border: 2px solid #FF3E79;
         border-radius: 50%;}
+
 
 
 

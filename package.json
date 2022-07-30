@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "babel": "^6.23.0",
+    "package": "^1.0.1",
+    "query": "^0.2.0"
+  },
+  "name": "Prokof",
+  "version": "1.0.0"
+}
