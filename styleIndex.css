@@ -32,7 +32,7 @@ button{cursor: pointer;}
     *, *::before, *::after {
         box-sizing: inherit;
     }
-    .header{}
+    
     .header__container{display: flex;
         background-image: linear-gradient(#F8F8F8,#FFFFFF);
         font-family: "TTLakes-Medium", serif;
@@ -72,7 +72,7 @@ button{cursor: pointer;}
         max-width: 240px; 
         margin: 16px;}
     .swiper-pagination{margin-top: 16px;}
-    .brand
+    
     }
 
 @media screen and (min-width: 768px) {
@@ -80,10 +80,10 @@ button{cursor: pointer;}
         box-sizing: inherit;
     }
 
-    .header{}
+    
     .header__container{display: flex;}
 
-    .brand{}
+    
     .brand__container{
         flex-direction: column;
         display: flex;
@@ -111,17 +111,16 @@ button{cursor: pointer;}
     .swiper-pagination{display:none;}
     
 }
-@
+
 
 
 @media screen and (min-width: 1440px) {
     *, *::before, *::after {
         box-sizing: inherit;
     }
-    .header{}
-    .header__container{}
+    
 
-    .brand{}
+    
     .brand__container{display: flex;
         padding: 16px;
         background-color:#F8F8F8; }
@@ -145,10 +144,6 @@ button{cursor: pointer;}
 
     details[open]{display: flex;
     flex-wrap: wrap;}
-    
-    
-    
-    
     
     .brand__button{display: flex;
         background-color: #FFFFFF;
