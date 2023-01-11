@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link HREF="styleIndex.css" rel="stylesheet">
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/
+    >
     <title>Title</title>
 </head>
 <body>
     <div class="header">
     <div class="header__container">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</div>
     </div>
-    <div class="brand">
-    <div class=" brand__container">
-    <div class="brand__wrapper swiper-wrapper">
+    
+    <div class="swiper">
+    <div class="swiper-wrapper">
 
     <div class="brand__item swiper-slide">
     <img src="acer.svg" alt="acer"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
@@ -42,7 +40,8 @@
     <img src="samsung.svg" alt="samsung"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
     </div>
 
-   <div class="brand__item swiper-slide">
+   
+    <div class="brand__item swiper-slide">
    <img src="acer.svg" alt="acer"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
    </div>
 
@@ -61,17 +60,92 @@
    <div class="brand__item swiper-slide">
    <img src="acer.svg" alt="acer"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
    </div>
+   
 
    </div>
+
    <div class="swiper-pagination"></div>
-
-
+   <div class="swiper-scrollbar"></div>
 </div>
 </div>
 
+ 
 
 
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+
+
+  <div class="brand__container">
+    <div class="brand__wrapper">
+
+    <div class="brand__item">
+    <img src="acer.svg" alt="acer"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
+    </div>
+
+    <div class="brand__item">
+    <img src="apple.svg" alt="apple"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
+    </div>
+
+    <div class="brand__item">
+    <img src="bosch.svg" alt="bosch"><button class="brand__button"><img src ="arrow.svg" alt="arrow"></button>
+    </div>
+
+    <div class="brand__item">
+    <img src="hp.svg" alt="hp"><button class="brand__button"><img src ="arrow.svg" alt="arrow"> </button>
+    </div>
+
+    <div class="brand__item">
+    <img src="lenovo.svg" alt="lenovo"><button class="brand__button">
+    <img src ="arrow.svg" alt="arrow"></button>
+    </div>
+   
+    <div class="brand__item">
+    <img src="samsung.svg" alt="samsung"><button class="brand__button">
+    <img src ="arrow.svg" alt="arrow"></button>
+    </div>
+    </div>
+   
+    <details open> 
+      <summary> Показать все</summary>
+    
+   <div class="wrapper">
+   <div class="brand__item hide">
+   <img src="acer.svg" alt="acer"><button class="brand__button">
+   <img src ="arrow.svg" alt="arrow"></button>
+   </div>
+
+   <div class="brand__item hide">
+   <img src="lenovo.svg" alt="lenovo"> <button class="brand__button">
+   <img src ="arrow.svg" alt="arrow"></button>
+   </div>
+
+   <div class="brand__item hide">
+   <img src="apple.svg" alt="apple"><button class="brand__button">
+   <img src ="arrow.svg" alt="arrow"></button>
+   </div>
+
+   <div class="brand__item hide">
+   <img src="samsung.svg" alt="samsung"><button class="brand__button">
+   <img src ="arrow.svg" alt="arrow"></button>
+   </div>
+
+   <div class="brand__item hide">
+   <img src="acer.svg" alt="acer"><button class="brand__button">
+   <img src ="arrow.svg" alt="arrow"></button>
+   </div>
+   </div>
+  
+   
+   </details>
+
+
+</div>
+
+
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="indexJS.js"></script>
 </body>
 </html>
