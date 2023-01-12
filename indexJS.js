@@ -15,8 +15,14 @@ new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-
-
 });
+
+
+function toggle(elem){
+    const cont = document.querySelector('.brand__wrapper')
+    cont.classList.toggle('wrapper--active')
+    elem.children[1].innerText =  cont.classList.contains('wrapper--active') ? 'Скрыть' : 'Показать все';
+    elem.children[0].classList.toggle('btn_icon--active')
+}
 
 
